@@ -1,0 +1,80 @@
+* {
+    
+    box-sizing: border-box;
+}
+.header {
+    background-color: blueviolet;
+    padding: 30px 0;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    
+}
+
+
+.main {
+    background-image: url(https://www.photolibrary.jp/mhd1/img217/450-2011081618393126449.jpg);
+    background-size: cover;
+    height: 1000px;
+}
+.kind {
+    color: red;
+    font-weight: bold;
+    background-color: greenyellow;
+    opacity: 0.7;
+}
+a {
+    display: inline-block;
+}
+.toi {
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+}
+.toi h3 {
+    background-color: sandybrown;
+    width: 100%;
+    padding: 15px 0;
+    opacity: 0.8;
+}
+.toi a {
+    background-color: plum;
+    padding: 15px 15px;
+    opacity: 0.8;
+    
+}
+a:hover {
+    opacity: 1;
+}
+a {
+    box-shadow: 0 5px #000;
+    opacity: 0.8;
+
+}
+a:active {
+    box-shadow: none;
+    position: relative;
+    top: 5px;
+    
+}
+.coco h2 {
+    color: gold;
+    background-color: red;
+    padding: 30px;
+    opacity: 0.8;
+}
+.coco p {
+color: aquamarine;
+background-color: hotpink;
+padding: 30px;
+opacity: 0.8;
+}
+footer p {
+    text-align: right;
+}
+@media (max-width: 600px) {
+    * {
+        width: 100%;
+    }
+
+}
